@@ -421,6 +421,9 @@ header.topo {
 	padding: 15px;
 }
 
+.menumobile {
+	display: none;
+}
 
 
 
@@ -588,6 +591,10 @@ header.topo {
 	.topoleft {
 		display: none;
 	}
+
+	.toporight {
+		width:100%;
+	}
 	
 	.topo-logoint {
 		display: flex;
@@ -610,39 +617,107 @@ header.topo {
 	}
 
 	.lastnewsarealeft {
-		font-size: 17px;
+		width: 35%;
+		font-size: 12px;
 		line-height: 30px;
 		padding-left: 10px;
 	}
 
+
+	.menu ul {
+		top: 274px;
+		position: absolute;
+		flex-direction: column;
+		background-color: red;
+		z-index: 10;
+		display: none;
+	}
+	 .menu li {
+		 margin-bottom: 20px;
+		 padding-left: 10px;
+		 height: auto;
+	 }
+
+	 .menu li img {
+		 display: none;
+	 }
+
+	 .menumobile {
+		 display: block;
+	 }
+
+	 .submenu {
+		 display: none;
+	 }
+
 	.lastnewsarearight {
-		font-size: 15px;
+		font-size: 11px;
+	}
+
+	.containerint {
+		display: block;
+	}
+
+	.leftside {
+		width: 100%;
+	}
+	
+	.slideshow {
+		height: 350px;
+		background-color: lightcyan;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	
+	.slideshowarea {
+		width: 600%;
+		height: 350px;
+		transition: all 1s;
+	}
+	
+	.slide {
+		height: 350px;
+		float: left;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;	
 	}
 
 	.slideinfo_title {
-		font-size: 18px;
-		padding-top: 10px;
+		font-size: 15px;
+		padding-top: 15px;
 		padding-left: 20px;
 	}
 	
 	.slideinfo_subtitle {
-		font-size: 11px;
+		font-size: 9px;
 		padding-left: 20px;
 	}
 
+	.widget-content {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.newsarea1 {
-		width: 300px;
+		width: 340px;
 	}
 
 	.newsbig .newsimgright {
-		width: 300px;
+		width: 330px;
 		height: 222px;
 		
 	}
 	
 	.newsitemright.newsbig .newsimgright > img {
-		width: 290px;
-		height: 210px;
+		width: 320px;
+		height: 212px;
+	}
+
+	.newsarea2 {
+		width: 80%;
+		margin: auto;
+		height: 250px;
 	}
 
 	.newsitemright .newsimgright img {
@@ -657,6 +732,11 @@ header.topo {
 		padding: 3px;
 		float: left;
 		margin-right: 5px;
+		}
+
+		.rightside {
+			width: 100%;
+			margin: auto;
 		}
 
 		.newsinfo {
