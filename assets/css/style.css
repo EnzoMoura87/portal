@@ -717,23 +717,25 @@ header.topo {
 	.newsarea2 {
 		width: 80%;
 		margin: auto;
-		height: 280px;
+		height: auto;
 	}
 
 	.newsitemright .newsimgright img {
-		width: 55px;
-		height: 55px;
+		width: 60px;
+		height: 60px;
 		
 	}
 
+	.newsitemright {
+		margin-bottom: 40px;
+	}
+
 	.newsimgright {
-		width: 62px;
-		height: 62px;
+		width: 68px;
+		height: 68px;
 		border: 1px solid #ccc;
 		padding: 3px;
-		float: left;
 		margin-right: 5px;
-		margin-bottom: 10px;
 		}
 
 		.rightside {
